@@ -7,6 +7,7 @@ body, html {
     text-align:left;
     background-color: #0FCDEF;
     margin: 0%;
+    cursor: pointer;
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
@@ -29,7 +30,7 @@ nav{
     padding-right: 1rem;
 }
 article{
-    text-align: justify;
+    padding-bottom: 6rem;
 }
 blockquote{
     background-color: #ededed;
@@ -40,10 +41,12 @@ section{
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
     text-align: center;
+    background-color:  #0FCDEF;
 }
 figure {
     text-align: center;
